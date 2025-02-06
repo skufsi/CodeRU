@@ -1,0 +1,3 @@
+# CodeRU
+
+Ýmisleg forritunarverkefni

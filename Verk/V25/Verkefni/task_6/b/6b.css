@@ -1,0 +1,44 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: midnightblue;
+    color: white;
+}
+
+table {
+    padding: 1px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#name {
+    text-align: left;
+}
+
+
+#bottom {
+    text-align: left;
+}
+
+.line1 {
+    background-color: coral;
+}
+
+.line2 {
+    background-color: seagreen;
+}
+
+#buffer {
+    padding: 5px;
+    background-color: black;
+}

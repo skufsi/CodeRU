@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+    margin: 0 auto;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-size: 25px;
+
+    :hover {
+        color: mediumspringgreen;
+    }
+}

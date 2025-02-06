@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(202, 202, 178);
+}
+
+.boxes {
+    border: 1px black solid;
+    padding: 50px;
+    text-align: center;
+    background-color: red;
+}
+
+#main {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#topLeft {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#topRight {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#bottomLeft {
+    position: absolute;
+    bottom: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+
+#bottomRight {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}

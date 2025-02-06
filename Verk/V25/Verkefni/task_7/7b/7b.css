@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+    margin: 0 auto;
+    width: 500px;
+}
+
+a {
+    font-size: 30px;
+}
+
+li {
+    :hover {
+        color: yellow;
+    }
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul ul {
+    display: none;
+}

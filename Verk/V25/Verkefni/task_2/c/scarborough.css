@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: italic;
+    text-indent: 50px;
+    position: relative;
+
+
+}

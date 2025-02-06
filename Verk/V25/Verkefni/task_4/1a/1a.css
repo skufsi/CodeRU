@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    width: 960px;
+}
+
+div {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+#header {
+    border-radius: 25px;
+    text-align: center;
+}
+
+#main {
+    border: 2px dotted seagreen;
+
+}
+
+#footer {
+    border: 1px solid blueviolet;
+    margin-top: 400px;
+}
