@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="input_1"><br>
+    <input type="text" id="input_2"><br>
+    <textarea disabled id="output"></textarea>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="sinnum">*</button>
+    <button id="deiling">/</button>
+
+    <script>
+
+        var tala_1 = "";
+        var tala_2 = "";
+
+        function samlagning() {
+            tala_1 = parseInt(document.getElementById('input_1').value);
+            tala_2 = parseInt(document.getElementById('input_2').value);
+            document.getElementById('output').value = tala_1 + tala_2;
+        }
+        function minus() {
+            tala_1 = parseInt(document.getElementById('input_1').value);
+            tala_2 = parseInt(document.getElementById('input_2').value);
+            document.getElementById('output').value = tala_1 - tala_2;
+        }
+        function sinnum() {
+            tala_1 = parseInt(document.getElementById('input_1').value);
+            tala_2 = parseInt(document.getElementById('input_2').value);
+            document.getElementById('output').value = tala_1 * tala_2;
+        }
+        function deiling() {
+            tala_1 = parseInt(document.getElementById('input_1').value);
+            tala_2 = parseInt(document.getElementById('input_2').value);
+            document.getElementById('output').value = tala_1 / tala_2;
+        }
+        document.getElementById('plus').addEventListener('click', samlagning);
+        document.getElementById('minus').addEventListener('click', minus);
+        document.getElementById('sinnum').addEventListener('click', sinnum);
+        document.getElementById('deiling').addEventListener('click', deiling);
+
+
+    </script>
+
+</body>
+
+</html>
